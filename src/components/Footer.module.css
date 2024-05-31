@@ -1,0 +1,61 @@
+footer {
+    width: 100%;
+    height: 17%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    position: fixed;
+    bottom: 0;
+
+    background-color: #191F4B;
+}
+
+footer .container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 5px;
+}
+
+footer .container1 span {
+    font-size: 1em;
+    color: #8d9fbb;
+}
+
+footer .container1 button {
+    width: 110px;
+    height: 35px;
+
+    color: #fff;
+    background-color: #F23E79;
+
+    border-style: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer .container1 button:hover {
+    background-color: #d03468;
+}
+
+footer .container2 {
+    color: #6E7B8F;
+    font-size: .8em;
+    padding-top: 10px;
+}
+
+footer .container2 span {
+    background-color: #070707;
+    color: #e1e1e1;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+footer .container2 .icon_heart {
+    color: #dcdcdc;
+}

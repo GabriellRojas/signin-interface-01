@@ -1,0 +1,67 @@
+form {
+    margin-top: 40px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+fieldset label {
+    color: #A6ABB3;
+    margin-bottom: 8px;
+}
+
+fieldset div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+fieldset a {
+    font-size: .8em;
+    color: #F23E79;
+    padding-right: 5px;
+    text-decoration: none;
+}
+
+input {
+    width: 380px;
+    height: 55px;
+    margin-bottom: 20px;
+    padding: 15px;
+
+    color: #f2a1bc;
+    font-size: 1em;
+
+    background-color: #0F1436;
+    border: 2px solid #181E48;
+    border-radius: 4px;
+}
+
+fieldset .container_password {
+    position: relative;
+}
+
+fieldset .container_password button {
+    background-color: transparent;
+    border-style: none;
+    color: #848dca;
+    font-size: 1.7em;
+
+    position: absolute;
+    cursor: pointer;
+    right: 15px;
+    top: 15px;
+}
+
+
+input:focus {
+    background-color: #181E48;
+    outline: 1px solid #f2a1bc7c;
+}
+
+::-webkit-input-placeholder {
+    color: #6E7B8F;
+}

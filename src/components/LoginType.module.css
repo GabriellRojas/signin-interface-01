@@ -1,0 +1,37 @@
+.login_type {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 67px;
+    gap: 1px;
+}
+
+.login_type button {
+    width: 191px;
+    height: 35px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #c2c0c0;
+    background-color: #191F4B;
+}
+
+.btn1 {
+    border-radius: 3px 0 0 3px;
+    border: none;
+}
+
+.btn2 {
+    border-radius: 0 3px 3px 0;
+    border: none;
+}
+
+.login_type button:hover {
+    background-color: #212963;
+    color: #F23E79;
+}
+
+.login_type button:active {
+    color: #F23E79;
+    background-color: #191F4B;
+}
